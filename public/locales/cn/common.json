@@ -1,0 +1,45 @@
+{
+  "save" : "保存",
+  "support center" : "支持",
+  "report problem" : "报告问题",
+  "menu": {
+    "statistics" : "统计数据",
+    "transactions" : "交易",
+    "graphics" : "图形和图表",
+    "reports" : "报表"
+  },
+  "dates" : {
+    "year" : "年",
+    "month" : "月",
+    "week" : "周",
+    "day" : "天",
+    "yesterday" : "昨天",
+    "today" : "今天",
+    "hour" : "时间"
+  },
+  "group by" : "分组标准",
+  "to find": "查找",
+  "clear": "清除",
+  "by status": "按状态",
+  "success" : "成功",
+  "not completed" : "未完成",
+  "error" : "错误",
+  "transactions" : "交易",
+  "output" : "转账",
+  "by price": "按价格",
+  "by count": "按数额",
+  "items0": "項目",
+  "items1": "項目",
+  "items2": "項目",
+  "contacts": "往來",
+  "transfer": "转账",
+  "transfer_history": "付款歷史",
+  "login": "User",
+  "password": "Password",
+ "feedback": {
+    "problem": "Please write your problem",
+    "send": "Send",
+    "sended": "Sended",
+    "success": "Your message has ben send"
+  }
+}

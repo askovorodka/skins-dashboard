@@ -1,0 +1,9 @@
+{
+  "filter_date_from": "Начало периода",
+  "filter_date_to": "Окончание периода",
+  "transaction_status": "Статус транзакции",
+  "create_report": "Создать отчет",
+  "download_report": "Скачать отчет",
+  "reports": "всего",
+  "create_success": "Отчет будет создан в ближайшее время и появится в списке автоматически"
+}

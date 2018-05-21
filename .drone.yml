@@ -1,0 +1,75 @@
+pipeline:
+  restore-cache:
+    image: drillster/drone-volume-cache
+    restore: true
+    mount:
+      - ./node_modules
+    volumes:
+      - /tmp/cache:/cache
+
+  build:
+    image: node:7-alpine
+    commands:
+      - NODE_ENV=development npm install --silent
+      - npm run build
+
+  rebuild-cache:
+    image: drillster/drone-volume-cache
+    rebuild: true
+    mount:
+      - ./node_modules
+    volumes:
+      - /tmp/cache:/cache
+
+  deploy_develop:
+   image: drillster/drone-rsync
+   user: skins4real
+   hosts:
+    - 207.154.237.9
+   port: 22
+   recursive: true
+   source: ./
+   target: /home/skins4real/dashboard_beta
+   secrets: [ plugin_key ]
+   when:
+    branch:
+      exclude: [refs/tags/prod*]
+      include: [refs/tags/dev*]
+    event: [tag]
+
+  deploy_production:
+   image: drillster/drone-rsync
+   user: skins4real
+   hosts:
+    - 46.101.131.59
+   port: 22
+   recursive: true
+   source: ./
+   target: /home/skins4real/dashboard
+   secrets: [ plugin_key ]
+   when:
+    branch:
+      include: [refs/tags/prod*]
+      exclude: [refs/tags/dev*]
+    event: [tag]
+
+  #nginx:
+  #  image: plugins/docker
+  #  repo: 4real/skins4real-dashboard
+  #  dockerfile: Dockerfile
+  #  skip_verify: true
+  #  username: ${DOCKER_USERNAME}
+  #  password: ${DOCKER_PASSWORD}
+
+  slack:
+      image: plugins/slack
+      webhook: https://hooks.slack.com/services/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
+      channel: drone_beta
+      when:
+        status: [ success, failure ]
+      template: >
+        {{#success build.status}}
+          *success* `build #{{build.number}}` <{{build.link}}|{{repo.name}}#{{truncate build.commit 8}}> ({{build.branch}}) by {{build.author}}.
+        {{else}}
+          *failed* `build #{{build.number}}` <{{build.link}}|{{repo.name}}#{{truncate build.commit 8}}> ({{build.branch}}) by {{build.author}}. Fix me man.
+        {{/success}}

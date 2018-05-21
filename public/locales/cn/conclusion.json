@@ -1,0 +1,15 @@
+{
+  "enter_amount": "输入数额",
+  "select_currency": "选择货币",
+  "select_payment_system": "选择付款",
+  "enter_payment_destination": "钱包号码",
+  "your_case_is_submit": "已发送",
+  "submit_case": "发送请求",
+  "submit_in_process": "正在发送",
+  "submitted": "已发送",
+  "payment_number": "输入转账目标",
+  "convert_in": "转换为:",
+  "at_the_exchange_rate": "汇率为",
+  "per": "可转为",
+  "faq": "FAQ"
+}

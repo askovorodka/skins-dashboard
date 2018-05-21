@@ -1,0 +1,46 @@
+{
+  "lol": "лол",
+  "save": "Сохранить",
+  "support center": "Центр поддержки",
+  "report problem": "Сообщить о проблеме",
+  "menu": {
+    "statistics": "Статистика",
+    "transactions": "Транзакции",
+    "graphics": "Графики",
+    "reports": "Отчеты"
+  },
+  "dates": {
+    "year": "Год",
+    "month": "Месяц",
+    "week": "Неделя",
+    "day": "День",
+    "yesterday": "Вчера",
+    "today": "Сегодня",
+    "hour": "Час"
+  },
+  "group by": "Группировать по",
+  "to find": "Найти",
+  "clear": "Очистить",
+  "by status": "По статусу",
+  "success": "Успешная",
+  "not completed": "Незавершенная",
+  "error": "Ошибка",
+  "transactions": "транзакций",
+  "output": "Вывести",
+  "by price": "по цене",
+  "by count": "по кол-ву",
+  "items0": "предмет",
+  "items1": "предмета",
+  "items2": "предметов",
+  "contacts": "Контакты",
+  "transfer": "Вывод средств",
+  "transfer_history": "История выплат",
+  "login": "Логин",
+  "password": "Пароль",
+  "feedback": {
+    "problem": "Опишите вашу проблему",
+    "send": "Отправить",
+    "sended": "Отправлено",
+    "success": "Ваше сообщение успешно отправлено"
+  }
+}

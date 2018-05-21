@@ -1,0 +1,15 @@
+version: "2"
+services:
+  nginx:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - .:/var/www
+    environment:
+      - NGINX_SERVER_NAME=localhost
+      - NGINX_DOCROOT=public
+    ports:
+      - "7003:80"
+      - "3332:3333"

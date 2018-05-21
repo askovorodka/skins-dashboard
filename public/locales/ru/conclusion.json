@@ -1,0 +1,15 @@
+{
+  "enter_amount": "Введите сумму",
+  "select_currency": "Выберите валюту",
+  "select_payment_system": "Выберите платежную систему",
+  "enter_payment_destination": "Напишите куда Вы хотите вывести средства",
+  "your_case_is_submit": "Ваша заявка отправлена",
+  "submit_case": "Отправить заявку",
+  "submit_in_process": "Отправляется",
+  "submitted": "Отправлено",
+  "payment_number": "Номер кошелька",
+  "convert_in": "Конвертировать в:",
+  "at_the_exchange_rate": "по курсу обмена",
+  "per": "за",
+  "gaq": "FAQ"
+}

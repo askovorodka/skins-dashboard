@@ -1,0 +1,8 @@
+node_modules
+.idea
+.DS_Store
+package-lock.json
+npm-debug.log
+docker-compose.yml
+/public/css
+/public/js

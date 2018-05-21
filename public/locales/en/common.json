@@ -1,0 +1,46 @@
+{
+  "lol": "lol",
+  "save" : "Save",
+  "support center" : "Support",
+  "report problem" : "Report a problem",
+  "menu": {
+    "statistics" : "Statistics",
+    "transactions" : "Transactions",
+    "graphics" : "Graphs and charts",
+    "reports" : "Reports"
+  },
+  "dates" : {
+    "year" : "Year",
+    "month" : "Month",
+    "week" : "Week",
+    "day" : "Day",
+    "yesterday" : "Yesterday",
+    "today" : "Today",
+    "hour" : "Hour"
+  },
+  "group by" : "Group by",
+  "to find": "Find",
+  "clear": "Clear",
+  "by status": "By status",
+  "success" : "Successful",
+  "not completed" : "Incomplete",
+  "error" : "Error",
+  "transactions" : "transactions",
+  "output" : "Transfer",
+  "by price": "by price",
+  "by count": "by amount",
+  "items0": "items",
+  "items1": "items",
+  "items2": "items",
+  "contacts": "Contacts",
+  "transfer": "Transfer",
+  "transfer_history": "Transfer history",
+  "login": "Login",
+  "password": "Password",
+  "feedback": {
+      "problem": "Please write your problem",
+      "send": "Send",
+      "sended": "Sended",
+      "success": "Your message has ben send"
+  }
+}

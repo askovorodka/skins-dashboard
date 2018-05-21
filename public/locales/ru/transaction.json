@@ -1,0 +1,12 @@
+{
+  "completed": "Выполнено",
+  "error_bot": "Ошибка",
+  "pending": "В процессе",
+  "note": "Заметка",
+  "transaction_information": "Информация о транзакции",
+  "transaction_sum": "Сумма",
+  "transaction_number": "Номер",
+  "transaction_status": "Статус",
+  "transaction_date": "Дата",
+  "transaction_items": "предметов"
+}

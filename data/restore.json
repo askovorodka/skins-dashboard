@@ -1,0 +1,248 @@
+{
+  "pages": {
+    "terms_and_conditions": "terms_and_conditions",
+    "terms_and_conditions": "how_to_pay",
+    "terms_and_conditions": "privacy_policy",
+    "terms_and_conditions": "refund_policy",
+    "terms_and_conditions": "faq"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Michael Jackson",
+      "price": 12432,
+      "twitter": "mjackson",
+      "worksOn": "React Router"
+    },
+    {
+      "id": 2,
+      "name": "Ryan Florence",
+      "github": "ryanflorence",
+      "twitter": "ryanflorence",
+      "worksOn": "React Router"
+    },
+    {
+      "id": 3,
+      "name": "Dan Abramov",
+      "github": "gaearon",
+      "twitter": "dan_abramov",
+      "worksOn": "Redux"
+    },
+    {
+      "id": 4,
+      "name": "Matt Zabriskie",
+      "github": "mzabriskie",
+      "twitter": "mzabriskie",
+      "worksOn": "Axios"
+    },
+    {
+      "id": 5,
+      "name": "Tobias Koppers",
+      "github": "sokra",
+      "worksOn": "Webpack"
+    },
+    {
+      "id": 6,
+      "name": "Sebastian McKenzie",
+      "github": "kittens",
+      "twitter": "sebmck",
+      "worksOn": "Babel"
+    }
+  ],
+  "stats": [
+    {
+      "id": 1,
+      "name": "Зачислено",
+      "count": 356834,
+      "money": true,
+      "percent": 13,
+      "dir": "+"
+    },
+    {
+      "id": 2,
+      "name": "Прибыль",
+      "count": 49834,
+      "money": true,
+      "percent": -7,
+      "dir": "-"
+    },
+    {
+      "id": 3,
+      "name": "Человек оплатили",
+      "count": 2342,
+      "money": false,
+      "percent": -23,
+      "dir": "-"
+    },
+    {
+      "id": 4,
+      "name": "Средний чек",
+      "count": 919,
+      "money": true,
+      "percent": 5,
+      "dir": "+"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 123235,
+      "orderId": 1232351,
+      "steamId": 12652351,
+      "tradeId": 672351,
+      "count": 78,
+      "price": 66,
+      "date": "3 минуты назад",
+      "status": true,
+      "items": [
+        {
+          "id": 1,
+          "name": "stvol",
+          "quality": 2,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 2,
+          "name": "stvol",
+          "quality": 1,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 3,
+          "name": "stvol",
+          "quality": 4,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 4,
+          "name": "stvol",
+          "quality": 6,
+          "img": "/img/item.png",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": 123236,
+      "orderId": 1232352,
+      "steamId": 12652351,
+      "tradeId": 672351,
+      "count": 1,
+      "price": 3,
+      "date": "10 минут назад",
+      "status": false,
+      "items": [
+        {
+          "id": 1,
+          "name": "stvol",
+          "quality": 2,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 2,
+          "name": "stvol",
+          "quality": 1,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 3,
+          "name": "stvol",
+          "quality": 4,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 4,
+          "name": "stvol",
+          "quality": 6,
+          "img": "/img/item.png",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": 123237,
+      "orderId": 1232353,
+      "steamId": 12652351,
+      "tradeId": 672351,
+      "count": 3,
+      "price": 12,
+      "date": "10 марта",
+      "status": false,
+      "items": [
+        {
+          "id": 1,
+          "name": "stvol",
+          "quality": 2,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 2,
+          "name": "stvol",
+          "quality": 1,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 3,
+          "name": "stvol",
+          "quality": 4,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 4,
+          "name": "stvol",
+          "quality": 6,
+          "img": "/img/item.png",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": 123238,
+      "orderId": 1232354,
+      "steamId": 12652351,
+      "tradeId": 672351,
+      "count": 13,
+      "price": 8,
+      "date": "12 февраля",
+      "status": true,
+      "items": [
+        {
+          "id": 1,
+          "name": "stvol",
+          "quality": 2,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 2,
+          "name": "stvol",
+          "quality": 1,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 3,
+          "name": "stvol",
+          "quality": 4,
+          "img": "/img/item.png",
+          "price": 20
+        },
+        {
+          "id": 4,
+          "name": "stvol",
+          "quality": 6,
+          "img": "/img/item.png",
+          "price": 20
+        }
+      ]
+    }
+  ]
+}

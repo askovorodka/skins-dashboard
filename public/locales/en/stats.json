@@ -1,0 +1,12 @@
+{
+  "credited" : "Credited",
+  "the man paid" : "The man paid",
+  "average check" : "Average check",
+  "success": "Success transactions",
+  "waiting": "Waiting transactions",
+  "failed": "Failed transactions",
+  "payment":"Payment",
+  "user_actions": "User actions",
+  "csgo": "CSGO",
+  "dota": "Dota"
+}

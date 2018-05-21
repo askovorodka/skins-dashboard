@@ -1,0 +1,15 @@
+{
+  "enter_amount": "Enter amount",
+  "select_currency": "Select currency",
+  "select_payment_system": "Select payment system",
+  "enter_payment_destination": "Enter payment destination number",
+  "your_case_is_submit": "Your request has been submitted",
+  "submit_case": "Submit case",
+  "submit_in_process": "In process",
+  "submitted": "Submitted",
+  "payment_number": "Payment number",
+  "convert_in": "Currency exchange in:",
+  "at_the_exchange_rate": "at a rate of",
+  "per": "for",
+  "faq": "FAQ"
+}

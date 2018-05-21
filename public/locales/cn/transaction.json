@@ -1,0 +1,12 @@
+{
+  "completed": "Completed",
+  "error_bot": "Error",
+  "pending": "Pending",
+  "note": "Note",
+  "transaction_information": "About transaction",
+  "transaction_sum": "Sum",
+  "transaction_number": "Number",
+  "transaction_status": "Status",
+  "transaction_date": "Date",
+  "transaction_items": "items"
+}

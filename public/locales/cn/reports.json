@@ -1,0 +1,9 @@
+{
+  "filter_date_from": "日期從",
+  "filter_date_to": "日期到",
+  "transaction_status": "交易狀態",
+  "create_report": "創建報告",
+  "download_report": "下載報告",
+  "reports": "報告",
+  "create_success": "Report has ben created success and show in table later"
+}

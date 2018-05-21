@@ -1,0 +1,9 @@
+{
+  "filter_date_from": "Date from",
+  "filter_date_to": "Date to",
+  "transaction_status": "Status",
+  "create_report": "Create report",
+  "download_report": "Download report",
+  "reports": "reports",
+  "create_success": "Report has ben created success and show in table later"
+}
